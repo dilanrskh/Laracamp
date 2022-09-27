@@ -1,0 +1,172 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body .nav-kerja{
+    background-color: #EAEEFE;
+}
+:root{
+    --warna-ungu: #7F6DF0;
+}
+
+.nav-kerja{
+    nav{
+        .container{
+            margin-top: 15px;
+            .collapse{
+                ul{
+                    .nav-item{
+                        .nav-link{
+                            font-weight: 400;
+                            font-size: 20px;
+                            text-align: left;
+                            line-height: 30px;
+                            color: #6D6F77;
+                        }:hover{
+                            color: #4262D2;
+                        }
+                        .active{
+                            color: #4262D2;
+                            font-weight: 500;
+                            size: 20px;
+                            line-height: 30px;
+                            text-align: right;
+
+                        }
+                    }
+                   
+                }
+            }
+        }
+    }
+}
+
+//Kerja Section
+
+.sec-kerja{
+    margin-top: 80px;
+    .row{
+        .content-kerja{
+            .dila{
+                .btn-primary{
+                    background-color: #7F6DF0;
+                    border-radius: 50px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    padding-top: 14px;
+                    padding-bottom: 15px;
+                    padding-left: 36px;
+                    padding-right: 35px;
+
+                }
+                .title{
+                    font-weight: 700;
+                    font-size: 40px;
+                    color: #7F6DF0;
+                    margin-top: 34px;
+                }
+                .foto-ea{
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                    padding-right: 7px;
+                }
+                p{
+                    color: #676E87;
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+                .tombol-kerja{
+                    margin-bottom: 120px;
+                    .btn-secondary{
+                        background-color: #FF6632;
+                        border-color: #FF6632;
+                        font-weight: 500;
+                        font-size: 18px;
+                        padding-top: 11px;
+                        padding-bottom: 11px;
+                        padding-left: 25px;
+                        padding-right: 25px;
+                        border-radius: 5px;
+                        margin-top: 4px;
+                    }
+                    .lihat{
+                        color: #676E87;
+                        font-weight: 400;
+                        font-size: 16px;
+                        width: 161px;
+                        height: 24px;
+                        padding-left: 80px;
+   
+                    }
+   
+                }
+            }
+        }
+    }
+}
+
+//merk
+.sec-merk{
+    margin-top: 150px;
+    .row{
+        .merk{
+            h3{
+               color: #48494F;
+               font-weight: 600;
+               font-size: 34px;
+               line-height: 51px;
+            }
+            .text{
+                padding-top: 30px;
+                color: #676E87;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .link{
+                color: #676E87;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                padding-top: 30px;
+                padding-bottom: 199px;
+
+            }
+        }
+    }
+}
+
+//skill
+.sec-skill{
+    .ket-skill{
+        padding-top: 160px;
+        padding-bottom: 100px;
+        h3{
+            color: #48494F;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 57px;
+        }
+    }
+    .skill{
+        .row{
+            .kartu{
+                .uiux{
+                    border-radius: 20px;
+                    background-color: #F0F5FF;
+                    border-color: #F0F5FF;
+                }
+                .cloud{
+                    border-radius: 20px;
+                    background-color: #F5F0FF;
+                    border-color: #F5F0FF;
+                }
+                .training{
+                    border-radius: 20px;
+                    background-color: #F5F0FF;
+                    border-color: #F5F0FF;
+                }
+            }
+        }
+    }
+}
+
